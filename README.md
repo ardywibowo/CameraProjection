@@ -16,13 +16,15 @@ please see my Unmanned Aerial Vehicle project [here].
 
 The library can be used for numerous applications related to computer vision and spatial intelligence.
 
-For example, in my project, AerialAR, getting the position of Points of Interest from the Google Maps API
+For example, in my project, [AerialAR], getting the position of Points of Interest from the Google Maps API
 and the position and orientation of the camera, I am able to show visible Points of Interest in camera imagery.
 
+[AerialAR]: https://github.com/ardywibowo/AerialAR
+
 The test executable I have provided here shows another application. The executable I have currently is a test for
-a private project which involves detecting lights in a building. Knowing the position and orientation of a camera at all times,
-a map of the lights in a building can be constructed by projecting pixels into rays. Because the camera is able to take
-pictures at a high rate while moving, two pictures at similar but not equal positions can be taken. This allows 
+a private project which involves detecting lights in a building. Knowing the position and orientation of a camera at all 
+times, a map of the lights in a building can be constructed by projecting pixels into rays. Because the camera is able to 
+take pictures at a high rate while moving, two pictures at similar but not equal positions can be taken. This allows 
 stereoscopic reconstruction of the 3D location of the light
 
 ## Future Work
