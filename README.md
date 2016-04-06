@@ -25,11 +25,11 @@ Then, by finding the lines' intersection with the ground plane, the 3D location 
 
 [AerialAR]: https://github.com/ardywibowo/AerialAR
 
-The test executable I have provided here shows another application. The executable I have currently is a test for
+Another application can be seen in the test executable I have provided. The executable I have currently is a test for
 a private project which involves detecting lights in a building. Knowing the position and orientation of a camera at all 
 times, a map of the lights in a building can be constructed by projecting pixels into rays. Because the camera is able to 
 take pictures at a high rate while moving, two pictures at similar but not equal positions can be taken. This allows 
-stereoscopic reconstruction of the 3D location of the light
+stereoscopic reconstruction of the 3D location of the light.
 
 ## Future Work
 Currently, the library doesn't support computationally intensive methods such as finding intersections of 3D objects.
