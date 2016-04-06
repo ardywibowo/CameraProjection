@@ -16,8 +16,12 @@ please see my Unmanned Aerial Vehicle project [here].
 
 The library can be used for numerous applications related to computer vision and spatial intelligence.
 
-For example, in my project, [AerialAR], getting the position of Points of Interest from the Google Maps API
+For example, in my project, [AerialAR], by receiving the position of Points of Interest from Google Maps API
 and the position and orientation of the camera, I am able to show visible Points of Interest in camera imagery.
+The program also handles sketch recognition. This allows users to circle a certain area in the image to find the area's
+GPS location as well as to determine the name and type of each building inside that area.
+This feature also uses camera projection, as it is projecting the sketched pixels into lines/rays in 3D space.
+Then, by finding the lines' intersection with the ground plane, the 3D location of the user's selection can be determined.
 
 [AerialAR]: https://github.com/ardywibowo/AerialAR
 
