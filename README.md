@@ -39,4 +39,11 @@ an object in the image. This can be fixed by using two images to project into 3D
 of feature detection, as the camera would need to differentiate each object in the image to avoid errors related to
 stereoscopic vision.
 
+Also, implementing quaternion rotation would also be useful for several applications as it is agnostic of order of rotations. 
+
 All of these are planned implementations in the future
+
+## Installation
+Besides downloading the library, you would also need to install Armadillo, a linear algebra library, along with its dependencies in order to use this library. You can get that [here].
+
+[here]: http://arma.sourceforge.net/
